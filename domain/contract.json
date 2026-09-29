@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "非遗课程观察记录",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804947.html",
+  "actors": [
+    "教研员",
+    "课堂观察员",
+    "学校教师"
+  ],
+  "states": [
+    "设计",
+    "采集",
+    "核验",
+    "汇总",
+    "签发"
+  ],
+  "invariants": [
+    "指标版本",
+    "观察资格",
+    "异常复核",
+    "报告封存"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09302-013-A",
+      "actor": "教研员",
+      "state": "设计"
+    },
+    {
+      "case_id": "09302-013-B",
+      "actor": "学校教师",
+      "state": "采集"
+    }
+  ],
+  "tags": [
+    "learning-observation",
+    "evidence-aggregation"
+  ]
+}
